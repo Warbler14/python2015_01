@@ -76,5 +76,5 @@ while num1 <= 9:
 print "<< test multiplication table use for >>"
 
 for num1 in range(2, 9):
-    for num2 in range(2, 9):
+    for num2 in range(1, 9):
         print num1, ' * ', num2, ' = ', num1*num2
