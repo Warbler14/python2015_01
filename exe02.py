@@ -16,6 +16,12 @@ for a in [1, 2, 3]:
     if a > 1:
         print(" a is greater than 1")
 
+print("start for range 0 - 10")
+for i in range(0, 10):
+    print(i)
+print("end for")
+
+
 # ---- test while ----
 i = 0
 while i < 3:
@@ -43,3 +49,26 @@ print(a ** b)
 print("print this ' ")
 print("print this '' ")
 print("print this \' ")
+
+
+# ---- test recursion ----
+print "<< test recursion >>"
+
+def countdown(n):
+    if n == 0:
+        print("fin")
+    else:
+        print(n)
+        countdown(n-1)
+
+countdown(10)
+
+# ---- test multiplication table ----
+num1 = 2
+while num1 <= 9:
+    num2 = 2
+    while num2 <= 9:
+        print num1, ' * ', num2, ' = ', num1*num2
+        num2 += 1
+    num1 += 1
+
