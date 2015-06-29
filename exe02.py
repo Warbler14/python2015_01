@@ -1,0 +1,45 @@
+__author__ = 'insung'
+
+# ---- test print ----
+print('test python');
+
+a = 3
+
+# ---- test if ----
+if a > 1:
+    print("a is greater than 1")
+
+# ---- test for ----
+for a in [1, 2, 3]:
+    print(a)
+
+    if a > 1:
+        print(" a is greater than 1")
+
+# ---- test while ----
+i = 0
+while i < 3:
+    i += 1
+    print(i)
+
+# ---- test function ----
+def sum1(v1, v2):
+    return v1+v2
+
+print(sum1(100, 99))
+
+# ---- test complex ----
+r = 1 + 2j
+
+print(r.real, r.imag, r.conjugate(), abs(r))
+
+# ---- test ** ----
+a = 3
+b = 4
+print(a ** b)
+
+# ---- test ' " ----
+
+print("print this ' ")
+print("print this '' ")
+print("print this \' ")
