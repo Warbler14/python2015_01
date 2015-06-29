@@ -64,7 +64,7 @@ def countdown(n):
 countdown(10)
 
 # ---- test multiplication table ----
-print "<< test multiplication table>>"
+print "<< test multiplication table use while >>"
 num1 = 2
 while num1 <= 9:
     num2 = 1
@@ -73,3 +73,8 @@ while num1 <= 9:
         num2 += 1
     num1 += 1
 
+print "<< test multiplication table use for >>"
+
+for num1 in range(2, 9):
+    for num2 in range(2, 9):
+        print num1, ' * ', num2, ' = ', num1*num2
