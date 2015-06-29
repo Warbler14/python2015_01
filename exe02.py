@@ -64,9 +64,10 @@ def countdown(n):
 countdown(10)
 
 # ---- test multiplication table ----
+print "<< test multiplication table>>"
 num1 = 2
 while num1 <= 9:
-    num2 = 2
+    num2 = 1
     while num2 <= 9:
         print num1, ' * ', num2, ' = ', num1*num2
         num2 += 1
