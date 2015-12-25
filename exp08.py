@@ -27,7 +27,11 @@ elif order == 'spagetti':
     price = 900
 
 print price
-
+# ----------------------------------------------
+order = 'egg'
+menu = {'spam':500, 'ham':700, 'egg':300, 'spagetti':900}
+price = menu[order]
+print price
 
 # ----------------------------------------------
 score = int(raw_input('score : '))
